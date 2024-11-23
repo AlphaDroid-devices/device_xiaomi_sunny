@@ -26,7 +26,7 @@ TARGET_INCLUDE_MATLOG := false
 
 # Maintainer
 ALPHA_BUILD_TYPE := Official
-ALPHA_MAINTAINER := eklerismunir
+ALPHA_MAINTAINER := mnasibzade
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_sunny
