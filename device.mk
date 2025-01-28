@@ -285,11 +285,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     KProfiles
 
-# Kernel
-LOCAL_KERNEL := device/xiaomi/sunny-kernel/Image
-PRODUCT_COPY_FILES += \
-	$(LOCAL_KERNEL):kernel
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.sunny
@@ -332,7 +327,6 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApertureSunny \
     CarrierConfigSunny \
     DisableQTIAppsSunny \
     DisplayFeaturesSunny \
@@ -341,9 +335,9 @@ PRODUCT_PACKAGES += \
     SettingsSunny \
     SystemUISunny \
     TelephonySunny \
-    WifiSunny \
-    SettingsOverlayM2101K7AG \
-    SettingsOverlayM2101K7AI
+    WifiSunny
+
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Perf
 PRODUCT_COPY_FILES += \
