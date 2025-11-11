@@ -1,0 +1,43 @@
+[
+  {
+    "repository": "PixelOS-Devices/android_device_xiaomi_sunny-kernel",
+    "target_path": "device/xiaomi/sunny-kernel"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_sunny",
+    "target_path": "vendor/xiaomi/sunny"
+  },
+  {
+    "repository": "PixelOS-AOSP/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "KProfiles/android_packages_apps_KProfiles",
+    "target_path": "packages/apps/KProfiles",
+    "branch": "main"
+  },
+  {
+    "repository": "cyberknight777/android_packages_apps_DisplayFeatures",
+    "target_path": "packages/apps/DisplayFeatures",
+    "branch": "master"
+  },
+  {
+    "repository": "YAAP/device_qcom_common",
+    "target_path": "device/qcom/common"
+  },
+  {
+    "repository": "AOSPA/android_device_qcom_qssi",
+    "target_path": "device/qcom/qssi",
+    "branch": "vauxite"
+  },
+  {
+    "repository": "YAAP/vendor_qcom_opensource_core-utils",
+    "target_path": "vendor/qcom/opensource/core-utils"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "YAOSP/vendor_qcom_common",
+    "target_path": "vendor/qcom/common"
+  }
+]

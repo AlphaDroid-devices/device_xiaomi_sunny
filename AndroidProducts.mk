@@ -5,5 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sunny.mk
-	
+    $(LOCAL_DIR)/custom_sunny.mk
