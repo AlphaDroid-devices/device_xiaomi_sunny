@@ -24,7 +24,8 @@
   },
   {
     "repository": "YAAP/device_qcom_common",
-    "target_path": "device/qcom/common"
+    "target_path": "device/qcom/common",
+    "branch": "sixteen"
   },
   {
     "repository": "AOSPA/android_device_qcom_qssi",
@@ -33,11 +34,13 @@
   },
   {
     "repository": "YAAP/vendor_qcom_opensource_core-utils",
-    "target_path": "vendor/qcom/opensource/core-utils"
+    "target_path": "vendor/qcom/opensource/core-utils",
+    "branch": "sixteen"
   },
   {
     "remote": "gitlab",
     "repository": "YAOSP/vendor_qcom_common",
-    "target_path": "vendor/qcom/common"
+    "target_path": "vendor/qcom/common",
+    "branch": "sixteen"
   }
 ]
