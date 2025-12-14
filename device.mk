@@ -281,6 +281,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigSunny \
     DisplayFeaturesSunny \
     FrameworksSunny \
+    LauncherSunny \
     SettingsProviderSunny \
     SettingsSunny \
     SystemUISunny \
