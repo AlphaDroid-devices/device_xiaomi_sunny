@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_sunny.mk
+    $(LOCAL_DIR)/alpha_sunny.mk
