@@ -679,4 +679,7 @@
          (lower-end devices may want to disable) -->
     <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
 
+    <!-- Whether device supports charging control. -->
+    <bool name="config_supportsChargingControl">false</bool>
+
 </resources>
