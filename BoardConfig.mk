@@ -10,6 +10,9 @@ KERNEL_PATH := device/xiaomi/sunny-kernel
 # Inherit from proprietary files
 include vendor/xiaomi/sunny/BoardConfigVendor.mk
 
+# Inherit dolby config
+include vendor/lunaris/dolby/BoardConfigDolby.mk
+
 # A/B
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
@@ -65,8 +68,11 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml \
-    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
-DEVICE_MANIFEST_FILE += hardware/qcom-caf/sm8150/media/conf_files/sm6150/c2_manifest_vendor.xml
+    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
+    vendor/lunaris/dolby/vintf/dolby_framework_compatibility_matrix.xml
+DEVICE_MANIFEST_FILE += \
+    hardware/qcom-caf/sm8150/media/conf_files/sm6150/c2_manifest_vendor.xml \
+    vendor/lunaris/dolby/vintf/dolby_manifest.xml
 DEVICE_MATRIX_FILE += hardware/qcom-caf/common/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest/manifest.xml
 
